@@ -1,6 +1,6 @@
 package doip.simulation.api;
 
-import doip.library.util.LookupTable;
+//import doip.library.util.LookupTable;
 
 /**
  * Represents a ECU in the DoIP Simulation.
@@ -31,7 +31,7 @@ public interface Ecu {
 	 * of the ECU.
 	 * @return
 	 */
-	public LookupTable getConfiguredLookupTable();
+	//public LookupTable getConfiguredLookupTable();
 	
-	public LookupTable getRuntimeLookupTable();
+	//public LookupTable getRuntimeLookupTable();
 }
