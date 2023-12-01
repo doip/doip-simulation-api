@@ -1,10 +1,11 @@
 package doip.simulation.api;
 
+import java.io.IOException;
 import java.util.List;
 
 public interface Gateway {
 
-	public void start();
+	public void start() throws IOException;
 	
 	public void stop();
 	
