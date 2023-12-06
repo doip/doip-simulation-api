@@ -3,9 +3,11 @@ package doip.simulation.api;
 import java.io.IOException;
 import java.util.List;
 
+import doip.library.exception.DoipException;
+
 public interface Gateway {
 
-	public void start() throws IOException;
+	public void start() throws DoipException;
 	
 	public void stop();
 	
