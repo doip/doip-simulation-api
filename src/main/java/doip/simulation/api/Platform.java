@@ -2,9 +2,11 @@ package doip.simulation.api;
 
 import java.util.List;
 
+import doip.library.exception.DoipException;
+
 public interface Platform {
 	
-	public void start();
+	public void start() throws DoipException;
 	
 	public void stop();
 	
