@@ -18,7 +18,7 @@ import doip.library.util.LookupTable;
  */
 public interface Ecu {
 	
-	public String getNamme();
+	public String getName();
 
 	/**
 	 * Resets the runtime lookup table so that it contains a new
