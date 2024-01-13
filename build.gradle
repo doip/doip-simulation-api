@@ -1,3 +1,5 @@
+// doip-simulation-api
+
 plugins {
 	id 'java-library'
 	id 'eclipse'
